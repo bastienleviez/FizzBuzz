@@ -10,7 +10,12 @@ namespace FizzBuzz
     {
         static public string PlayFizzBuzz(int entree)
         {
-            throw new NotImplementedException();
+            if (entree == 0)
+            {
+                throw new ArgumentException();
+
+            }
+            return "";
         }
     }
 }
