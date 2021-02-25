@@ -14,8 +14,16 @@ namespace FizzBuzz
             {
                 throw new ArgumentException();
 
+            } 
+            else
+            {
+                if (entree % 3 == 0)
+                {
+                    return "Fizz";
+                }
+
+                return "";
             }
-            return "";
         }
     }
 }
