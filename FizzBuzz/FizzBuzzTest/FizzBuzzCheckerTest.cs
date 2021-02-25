@@ -32,5 +32,11 @@ namespace FizzBuzzTest
         {
             Assert.AreEqual("Buzz", FizzBuzzChecker.PlayFizzBuzz(5));
         }
+
+        [TestMethod]
+        public void FizzBuzzRenvoieFizzBuzzSiEntreeEstUnMultipleDe3EtDe5()
+        {
+            Assert.AreEqual("FizzBuzz", FizzBuzzChecker.PlayFizzBuzz(15));
+        }
     }
 }
