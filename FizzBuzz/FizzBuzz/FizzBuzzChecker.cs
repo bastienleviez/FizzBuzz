@@ -17,6 +17,10 @@ namespace FizzBuzz
             } 
             else
             {
+                if (entree % 3 == 0 && entree % 5 == 0)
+                {
+                    return "FizzBuzz";
+                }
                 if (entree % 3 == 0)
                 {
                     return "Fizz";
@@ -26,6 +30,7 @@ namespace FizzBuzz
                 {
                     return "Buzz";
                 }
+
                 return "";
             }
         }
