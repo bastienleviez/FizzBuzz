@@ -31,7 +31,7 @@ namespace FizzBuzz
                     return "Buzz";
                 }
 
-                return "";
+                return entree.ToString();
             }
         }
     }
