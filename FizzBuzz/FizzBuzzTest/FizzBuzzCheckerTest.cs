@@ -38,5 +38,11 @@ namespace FizzBuzzTest
         {
             Assert.AreEqual("FizzBuzz", FizzBuzzChecker.PlayFizzBuzz(15));
         }
+
+        [TestMethod]
+        public void FizzBuzzRenvoieLeNombreEnEntreeSiAucunDesCasPrecedents()
+        {
+            Assert.AreEqual("2", FizzBuzzChecker.PlayFizzBuzz(2));
+        }
     }
 }
