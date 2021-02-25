@@ -20,5 +20,11 @@ namespace FizzBuzzTest
         {
             var retour = FizzBuzzChecker.PlayFizzBuzz(-5);
         }
+
+        [TestMethod]
+        public void FizzBuzzRenvoieFizzSiEntreeEstUnMultipleDe3()
+        {
+            Assert.AreEqual("Fizz", FizzBuzzChecker.PlayFizzBuzz(3));
+        }
     }
 }
