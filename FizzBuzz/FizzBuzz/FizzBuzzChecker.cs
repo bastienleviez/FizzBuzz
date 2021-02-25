@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    class FizzBuzzChecker
+    public class FizzBuzzChecker
     {
         static public string PlayFizzBuzz(int entree)
         {

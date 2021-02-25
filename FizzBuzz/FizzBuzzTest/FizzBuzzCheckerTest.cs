@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using FizzBuzz;
 
 namespace FizzBuzzTest
 {
@@ -7,8 +8,10 @@ namespace FizzBuzzTest
     public class FizzBuzzCheckerTest
     {
         [TestMethod]
-        public void TestMethod1()
+        [ExpectedException(typeof(ArgumentException))]
+        public void FizzBuzzRenvoieExceptionSiEntreeDe0()
         {
+            var retour = FizzBuzzChecker.PlayFizzBuzz(0);
         }
     }
 }

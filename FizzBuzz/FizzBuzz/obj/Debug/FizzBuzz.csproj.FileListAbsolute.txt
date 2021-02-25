@@ -1,0 +1,7 @@
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Users\levie\Documents\EPSI\B3\Tests\FizzBuzz\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
