@@ -10,13 +10,10 @@ namespace FizzBuzz
     {
         static public string PlayFizzBuzz(int entree)
         {
-            if (entree == 0)
+            if (entree <= 0)
             {
                 throw new ArgumentException();
 
-            } else if (entree < 0)
-            {
-                throw new ArgumentException();
             }
             return "";
         }
