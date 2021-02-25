@@ -13,5 +13,12 @@ namespace FizzBuzzTest
         {
             var retour = FizzBuzzChecker.PlayFizzBuzz(0);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void FizzBuzzRenvoieExceptionSiEntreeInferieureA0()
+        {
+            var retour = FizzBuzzChecker.PlayFizzBuzz(-5);
+        }
     }
 }
