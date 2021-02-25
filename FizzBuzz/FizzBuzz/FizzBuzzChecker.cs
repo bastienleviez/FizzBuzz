@@ -14,6 +14,9 @@ namespace FizzBuzz
             {
                 throw new ArgumentException();
 
+            } else if (entree < 0)
+            {
+                throw new ArgumentException();
             }
             return "";
         }
