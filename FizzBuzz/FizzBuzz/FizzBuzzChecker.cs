@@ -20,8 +20,12 @@ namespace FizzBuzz
                 if (entree % 3 == 0)
                 {
                     return "Fizz";
-                }
 
+                }
+                if (entree % 5 == 0)
+                {
+                    return "Buzz";
+                }
                 return "";
             }
         }
